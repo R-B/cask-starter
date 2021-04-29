@@ -71,7 +71,6 @@ html {
 }
 
 body {
-  backgroud-colour: #00FF7F;
   font-family: var(--font-family);
   font-size: var(--font-size-body);
   font-weight: var(--font-weight-normal);
@@ -101,7 +100,7 @@ p {
 }
 
 a {
-  color: inherit;
+  color: #00FF7F;
   text-decoration: underline;
 }
 
