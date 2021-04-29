@@ -7,11 +7,9 @@ Variables
 :root {
   /* Typography */
   --font-family: "IBM-Plex-Sans", sans-serif;
-  --font-size-body: 1rem;
+  --font-size-body: 1.0625rem;
   --font-size-small: 0.75rem;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
-  --line-height: 1.375;
+  --line-height: 1.7;
 
   /* Layout */
   --padding-container: 1rem;
@@ -32,7 +30,6 @@ Fonts
   font-display: swap;
   font-family: "IBM-Plex-Sans";
   font-style: normal;
-  font-weight: 400;
   src: url("../fonts/IBMPlexSans-Light.woff2") format("woff2");
 }
 
@@ -40,7 +37,6 @@ Fonts
   font-display: swap;
   font-family: "IBM-Plex-Sans";
   font-style: italic;
-  font-weight: 400;
   src: url("../fonts/IBMPlexSans-LightItalic.woff2") format("woff2");
 }
 
@@ -48,7 +44,6 @@ Fonts
   font-display: swap;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
   src: url("../fonts/Inter-Bold.woff2") format("woff2");
 }
 
@@ -56,7 +51,6 @@ Fonts
   font-display: swap;
   font-family: "IBM-Plex-Sans";
   font-style: italic;
-  font-weight: 700;
   src: url("../fonts/Inter-BoldItalic.woff2") format("woff2");
 }
 
