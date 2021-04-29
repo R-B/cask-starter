@@ -7,7 +7,7 @@ Variables
 :root {
   /* Typography */
   --font-family: "Inter", sans-serif;
-  --font-size-body: 2rem;
+  --font-size-body: 1.4rem;
   --font-size-small: 0.75rem;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
@@ -15,7 +15,7 @@ Variables
   --line-height: 1.375;
 
   /* Layout */
-  --padding-container: 2rem;
+  --padding-container: 1rem;
   --width-container: 100rem;
   --width-textcol: 37.5rem;
   --width-media-sm: 30rem;
