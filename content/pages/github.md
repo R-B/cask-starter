@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
-  key: GitHub &nearr;
+  key: are.na &nearr;
   order: 3
-  url: http://github.com/sb-ph/portfolio-starter
+  url: https://www.are.na/r-b-1518363436/project-cask
 permalink: false
 ---
