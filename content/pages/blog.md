@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 eleventyNavigation:
-  key: Blog
+  key: Maps
   order: 2
 ---
 
