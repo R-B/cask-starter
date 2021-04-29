@@ -3,7 +3,7 @@ layout: page
 title: About
 eleventyNavigation:
   key: About
-  order: 1
+  order: 2
 ---
 
 This is a testing site for CASK to experiment with deploying a static site and editing the CSS.
