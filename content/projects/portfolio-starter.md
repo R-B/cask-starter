@@ -1,7 +1,7 @@
 ---
-title: Portfolio Starter
+title: CASK Starter
 layout: project
-dateEnd: 2021-04-029 19:00:00
+dateEnd: 2021-04-29 19:00:00
 media:
   - type: image
     filename: PI-Logo-Colours-Twitter.gif 
@@ -9,4 +9,4 @@ media:
     alt: PI Logo
 ---
 
-A starter kit for static portfolio sites. Lightweight, customisable, open source. By [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info). [Get started](https://github.com/sb-ph/portfolio-starter)!
+A static site sandbos for CASK. Lightweight, customisable, open source. Using portfolio starter by [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info).
