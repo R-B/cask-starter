@@ -12,6 +12,7 @@ Variables
   --line-height: 1.5;
 
   /* Layout */
+  --background-colour: #00FF7F;
   --padding-container: 1rem;
   --width-container: 100rem;
   --width-textcol: 37.5rem;
@@ -100,7 +101,7 @@ p {
 }
 
 a {
-  color: #00FF7F;
+  color: inherit;
   text-decoration: underline;
 }
 
