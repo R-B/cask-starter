@@ -62,6 +62,7 @@ Base styles
 
 html {
   box-sizing: border-box;
+  backgroud-colour: #00FF7F;
 }
 
 *,
@@ -80,7 +81,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 var(--padding-container);
-  backgroud-colour: #00FF7F;
 }
 
 h1,
