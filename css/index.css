@@ -197,13 +197,14 @@ Layout / global includes
 
 .site-footer {
   font-size: var(--font-size-small);
-  background-color: #DED7C8
   margin-top: auto;
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
   width: var(--width-container);
+  background-color: #DED7C8
+
 }
 
 .site-footer > p {
