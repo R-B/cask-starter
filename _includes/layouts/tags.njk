@@ -6,20 +6,18 @@ pagination:
   size: 1
   alias: tag
   filter:
-    - all
-    - nav
     - post
     - posts
-permalink: /writing/tag/{{ tag | slug }}/
+permalink: /posts/tag/{{ tag | slug }}/
 ---
 {% set title = 'Tag “' ~ tag ~ '”' %}
 <html class="{{ section }} {{ section }}--tag" lang="{{ global.lang }}">
 
-  {% include "components/head.njk" %}
+  {% include "components/base.njk" %}
 
   <body>
 
-    {% include "components/header-writing.njk" %}
+    {% include "components/header-post.njk" %}
 
     <main class="main">
 
@@ -29,14 +27,10 @@ permalink: /writing/tag/{{ tag | slug }}/
         {% endfor %}
       </section>
 
-      <div class="pagination">
-        {% set arrowTop = global.arrowsTop.split(', ') | random %}
-        <a class="pagination__top" href="#top" aria-label="Back to top">{{ arrowTop }}</a>
-      </div>
 
     </main>
 
-    {% include "components/footer.njk" %}
+    {% include "components/base.njk" %}
 
   </body>
 
