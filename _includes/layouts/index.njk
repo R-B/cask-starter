@@ -1,18 +1,43 @@
----
-layout: post.njk
-pagination:
-  data: collections.posts
-  size: 10
-  alias: posts
----
 
-<ul>
-  {%- for post in collections.blog | reverse -%}
-    <li>
-      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a> | {{ post.date }}</h3>
-      {% if post.data.teaser %}
-        <p>{{ post.data.teaser }}</p>
-      {% endif %} 
-    </li>
-  {%- endfor -%}
-</ul>
+---
+section: Blog
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+permalink: /writing/tag/{{ tag | slug }}/
+---
+{% set title = 'Tag “' ~ tag ~ '”' %}
+<html class="{{ section }} {{ section }}--tag" lang="{{ global.lang }}">
+
+  {% include "components/head.njk" %}
+
+  <body>
+
+    {% include "components/header-writing.njk" %}
+
+    <main class="main">
+
+      <section>
+        {% for post in collections[tag] %}
+          {% include "components/single-post.njk" %}
+        {% endfor %}
+      </section>
+
+      <div class="pagination">
+        {% set arrowTop = global.arrowsTop.split(', ') | random %}
+        <a class="pagination__top" href="#top" aria-label="Back to top">{{ arrowTop }}</a>
+      </div>
+
+    </main>
+
+    {% include "components/footer.njk" %}
+
+  </body>
+
+</html>
