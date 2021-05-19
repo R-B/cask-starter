@@ -1,6 +1,7 @@
 ---
 layout: home
 entries:
+  - biophonia-project
   - portfolio-starter
   - sample-project-optics
   - sample-project-muybridge
