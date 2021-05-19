@@ -1,6 +1,6 @@
 ---
-title: Biophonia
 layout: project
+title: Biophonia
 dateEnd: 2021-05-18 19:00:00
 media:
   - type: image
