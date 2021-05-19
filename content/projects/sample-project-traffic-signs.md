@@ -4,29 +4,14 @@ title: Sample project 3
 dateEnd: 2020-04-03
 media:
   - type: image
-    filename: traffic-5.png
+    filename: Biophonia9.jpg
     size: sm
     alt: Pictogram of a house-like building next to a tree
     caption: "[Image source](https://www.gov.uk/guidance/traffic-sign-images)"
   - type: image
-    filename: traffic-1.png
+    filename: Biophonia-5.png
     size: sm
     alt: Pictogram of a tree
-    caption: "[Image source](https://www.gov.uk/guidance/traffic-sign-images)"
-  - type: image
-    filename: traffic-2.png
-    size: sm
-    alt: Pictogram of some oak leaves
-    caption: "[Image source](https://www.gov.uk/guidance/traffic-sign-images)"
-  - type: image
-    filename: traffic-3.png
-    size: sm
-    alt: Pictogram of a castle
-    caption: "[Image source](https://www.gov.uk/guidance/traffic-sign-images)"
-  - type: image
-    filename: traffic-4.png
-    size: sm
-    alt: Pictogram of an elephant
     caption: "[Image source](https://www.gov.uk/guidance/traffic-sign-images)"
 ---
 
