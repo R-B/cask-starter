@@ -203,8 +203,6 @@ Layout / global includes
   margin-right: auto;
   max-width: 100%;
   width: var(--width-container);
-  background-color: #DED7C8
-
 }
 
 .site-footer > p {
@@ -225,7 +223,7 @@ Homepage
 }
 
 .home-block {
-  align-items: center;
+  align-items: left;
   display: flex;
   flex-direction: column;
   margin-bottom: 8rem;
