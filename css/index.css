@@ -223,7 +223,7 @@ Homepage
 }
 
 .home-block {
-  align-items: left;
+  align-items: centre;
   display: flex;
   flex-direction: column;
   margin-bottom: 8rem;
